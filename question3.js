@@ -4,7 +4,7 @@
 
 /**
  * A very simple function that will reverse a string.
- * @param str
+ * @param str The string that we want to have reversed.
  */
 function reverse_string(str) {
     return str.split("").reverse().join("");
